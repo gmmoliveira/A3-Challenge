@@ -1,0 +1,94 @@
+{
+  "test_cases": [
+    {
+      "input": "Na última segunda-feira (10/03) às 09:30, na filial do Rio de Janeiro, ocorreu um vazamento de dados sensíveis que comprometeu informações de clientes por aproximadamente 5 horas.",
+      "output": {
+        "data_ocorrencia": "2025-03-10 09:30",
+        "local": "Rio de Janeiro",
+        "tipo_incidente": "Vazamento de dados",
+        "impacto": "Informações de clientes comprometidas por 5 horas"
+      }
+    },
+    {
+      "input": "Yesterday at 3:15 PM, at the New York data center, a network outage disrupted all online services for 45 minutes during peak hours.",
+      "output": {
+        "data_ocorrencia": "2025-08-18 15:15",
+        "local": "New York",
+        "tipo_incidente": "Network outage",
+        "impacto": "Todos os serviços online indisponíveis por 45 minutos"
+      }
+    },
+    {
+      "input": "Em 2025-07-25 às 08:00, no data center de Frankfurt, uma falha de energia causou desligamento não planejado dos servidores críticos por 30 minutos.",
+      "output": {
+        "data_ocorrencia": "2025-07-25 08:00",
+        "local": "Frankfurt",
+        "tipo_incidente": "Falha de energia",
+        "impacto": "Servidores críticos desligados por 30 minutos"
+      }
+    },
+    {
+      "input": "No dia 15/08 às 23:40, no escritório de Lisboa, um ataque de ransomware criptografou os arquivos principais, afetando as operações por 12 horas.",
+      "output": {
+        "data_ocorrencia": "2025-08-15 23:40",
+        "local": "Lisboa",
+        "tipo_incidente": "Ataque de ransomware",
+        "impacto": "Arquivos principais criptografados, operações afetadas por 12 horas"
+      }
+    },
+    {
+      "input": "This morning at 11:20, at the London office, a fire alarm triggered evacuation and caused complete work interruption for 2 hours.",
+      "output": {
+        "data_ocorrencia": "2025-08-19 11:20",
+        "local": "London",
+        "tipo_incidente": "Fire alarm evacuation",
+        "impacto": "Interrupção completa do trabalho por 2 horas"
+      }
+    },
+    {
+      "input": "Hoje às 14:00, na matriz em São Paulo, uma pane no sistema de CRM impossibilitou o atendimento ao cliente por 3 horas.",
+      "output": {
+        "data_ocorrencia": "2025-08-19 14:00",
+        "local": "São Paulo",
+        "tipo_incidente": "Pane no sistema de CRM",
+        "impacto": "Atendimento ao cliente impossibilitado por 3 horas"
+      }
+    },
+    {
+      "input": "On August 5th at 2:00 AM, at the Tokyo server farm, a cooling system failure caused overheating and automatic shutdown of 15 servers for 4 hours.",
+      "output": {
+        "data_ocorrencia": "2025-08-05 02:00",
+        "local": "Tokyo",
+        "tipo_incidente": "Cooling system failure",
+        "impacto": "Superaquecimento e desligamento automático de 15 servidores por 4 horas"
+      }
+    },
+    {
+      "input": "Dia 30/07 às 16:55, no call center de Curitiba, uma falha na PABX interrompeu todas as linhas telefônicas por 1 hora e meia.",
+      "output": {
+        "data_ocorrencia": "2025-07-30 16:55",
+        "local": "Curitiba",
+        "tipo_incidente": "Falha na PABX",
+        "impacto": "Todas as linhas telefônicas interrompidas por 1.5 horas"
+      }
+    },
+    {
+      "input": "Last Friday at 10:45 AM, in the Sydney branch, a security breach was detected that compromised user credentials and required password resets for all employees.",
+      "output": {
+        "data_ocorrencia": "2025-08-15 10:45",
+        "local": "Sydney",
+        "tipo_incidente": "Security breach",
+        "impacto": "Credenciais de usuário comprometidas, reset de senhas necessário para todos os funcionários"
+      }
+    },
+    {
+      "input": "Em 2025-06-12 às 13:20, na fábrica de Campinas, uma falha no sistema automatizado paralisou a produção por 6 horas, causando atraso na entrega.",
+      "output": {
+        "data_ocorrencia": "2025-06-12 13:20",
+        "local": "Campinas",
+        "tipo_incidente": "Falha no sistema automatizado",
+        "impacto": "Produção paralisada por 6 horas com atraso na entrega"
+      }
+    }
+  ]
+}
