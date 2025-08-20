@@ -12,7 +12,7 @@ This project implements a Python API that processes incident descriptions using 
 
 The source-code has been tested using the following systems:
 
-- Python 3.11.11
+- Python 3.13.5
 - Ollama 0.11.4
 - Nvidia RTX 4090 24GB VRAM GPU (recommended) or sufficient system RAM:
   - Driver Version: 575.64.03
@@ -86,5 +86,5 @@ The provided example request leads to the following reply:
 ├── assets/endpoint_test_cases/
 │   └── tests.json           # Test cases
 └── src/visualization/
-    └── main.ipynb           # Example usage
+    └── main.ipynb           # Example usage and testing cases
 ```
